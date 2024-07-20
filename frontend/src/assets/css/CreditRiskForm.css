@@ -1,0 +1,58 @@
+
+
+#multiStepForm {
+	background-color: #f2f2f2;
+	padding: 20px;
+	width: 40%;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=tel],
+select {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+#prevBtn,
+#nextBtn {
+	background-color: #0303df;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+#prevBtn:hover,
+#nextBtn:hover {
+	background-color: #110671;
+}
+
+.tab {
+	display: none;
+}
+
+.step {
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border: none;
+	border-radius: 50%;
+	display: inline-block;
+	opacity: 0.5;
+}
+
+.step.active {
+	opacity: 1;
+}
